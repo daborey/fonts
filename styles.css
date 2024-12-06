@@ -15,3 +15,32 @@
 .AKbalthom-HighSchool {
     font-family: 'AKbalthom-HighSchool';
 }
+
+/* Donate Section Styles */
+.donate-section {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+  }
+  
+  .donate-section h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .donate-section p {
+    font-size: 16px;
+  }
+  
+  .qr-code-container {
+    margin-top: 20px;
+  }
+  
+  .qr-code {
+    width: 150px;  /* Adjust size to medium */
+    height: 150px;
+    border-radius: 5px;
+  }
+  
