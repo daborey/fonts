@@ -23,24 +23,32 @@
     padding: 20px;
     background-color: #f7f7f7;
     border-radius: 8px;
-  }
-  
-  .donate-section h3 {
+}
+
+.donate-section h3 {
     font-size: 24px;
     margin-bottom: 15px;
-  }
-  
-  .donate-section p {
+}
+
+.donate-section p {
     font-size: 16px;
-  }
-  
-  .qr-code-container {
+}
+
+.qr-code-container {
     margin-top: 20px;
-  }
-  
-  .qr-code {
-    width: 150px;  /* Adjust size to medium */
+}
+
+.qr-code {
+    width: 150px;
+    /* Adjust size to medium */
     height: 150px;
     border-radius: 5px;
-  }
-  
+}
+
+/* New Disclaimer Style */
+.disclaimer {
+    font-size: 14px;
+    color: gray;
+    margin-top: 20px;
+    font-style: italic;
+}
