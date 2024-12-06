@@ -1,0 +1,17 @@
+@font-face {
+    font-family: AKbalthom-Freehand;
+    src: url(AKbalthom-Freehand.ttf);
+}
+
+@font-face {
+    font-family: AKbalthom-HighSchool;
+    src: url(AKbalthom-HighSchool.ttf);
+}
+
+.AKbalthom-Freehand {
+    font-family: 'AKbalthom-Freehand'
+}
+
+.AKbalthom-HighSchool {
+    font-family: 'AKbalthom-HighSchool';
+}
