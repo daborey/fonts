@@ -1,19 +1,19 @@
 @font-face {
-    font-family: AKbalthom-Freehand;
-    src: url(fonts/AKbalthom-Freehand.ttf);
+    font-family: AKbalthomFreehand;
+    src: url(fonts/AKbalthomFreehand.ttf);
 }
 
 @font-face {
-    font-family: AKbalthom-HighSchool;
-    src: url(fonts/AKbalthom-HighSchool.ttf);
+    font-family: AKbalthomHighSchool;
+    src: url(fonts/AKbalthomHighSchool.ttf);
 }
 
 .AKbalthom-Freehand {
-    font-family: 'AKbalthom-Freehand'
+    font-family: 'AKbalthomFreehand'
 }
 
 .AKbalthom-HighSchool {
-    font-family: 'AKbalthom-HighSchool';
+    font-family: 'AKbalthomHighSchool';
 }
 
 /* Donate Section Styles */
