@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* General styles for the page */
 body {
   font-family: 'Roboto', sans-serif; /* Modern font for a clean look */
@@ -25,24 +24,6 @@ header h1 {
 header p {
   font-size: 18px;
   margin: 10px 0 0;
-=======
-@font-face {
-    font-family: akbalthomfreehand;
-    src: url(fonts/akbalthomfreehand.ttf);
-}
-
-@font-face {
-    font-family: akbalthomhighschool;
-    src: url(fonts/akbalthomhighschool.ttf);
-}
-
-.akbalthomfreehand {
-    font-family: 'akbalthomfreehand'
-}
-
-.akbalthomhighschool {
-    font-family: 'akbalthomhighschool';
->>>>>>> c56e8c95abb308a205df5c670f95b2d0e8e9ba6e
 }
 
 /* Font container */
