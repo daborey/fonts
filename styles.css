@@ -9,11 +9,14 @@ body {
 }
 
 header {
-  background-color: #388e3c; /* Slightly darker green for depth */
+  background: linear-gradient(45deg, red, green, blue); /* Slightly darker green for depth */
   color: white;
   text-align: center;
   padding: 30px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+  /* gradient animation */
+  background-size: 200% 200%;
+  animation: gradientAnimation 5s ease infinite;
 }
 
 header h1 {
@@ -84,11 +87,14 @@ header p {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #388e3c;
+  background: linear-gradient(45deg, red, green, blue);
   color: white;
   position: relative;
   bottom: 0;
   width: 100%;
+   /* gradient animation */
+   background-size: 200% 200%;
+   animation: gradientAnimation 5s ease infinite;
 }
 
 footer a {
@@ -176,5 +182,18 @@ footer a:hover {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+/* gradient animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
