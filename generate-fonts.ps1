@@ -14,7 +14,7 @@ if (!(Test-Path -Path $fontsFolder)) {
 $fontFiles = Get-ChildItem -Path $fontsFolder -Filter "*.ttf" | Select-Object -ExpandProperty Name
 
 # Create the JavaScript array
-$jsContent = "export const fonts = [`n"
+$jsContent = "const fonts = [`n"
 foreach ($font in $fontFiles) {
     $jsContent += "  `"$font`",`n"
 }
